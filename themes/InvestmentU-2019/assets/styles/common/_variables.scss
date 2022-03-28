@@ -1,0 +1,45 @@
+// Grid settings
+$main-sm-columns: 12;
+$sidebar-sm-columns: 4;
+
+// Typography
+$font-family-sans-serif: runda, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// Sizes
+$xs: 0.5rem;
+$sm: 0.75rem;
+$smd: 0.85rem;
+$md: 1rem;
+$mdl: 1.25rem;
+$lg: 1.5rem;
+$xl: 2rem;
+
+// Colors
+$iu-blue: #1f82c5;
+$iu-blue-lite: #70b3e1;
+$iu-blue-xlite: #dcf1ff;
+$iu-teal: #41dde3;
+$iu-teal-lite: #d4fdff;
+// Greys
+$white: #ffffff;
+$xlite-grey: #f2f2f2;
+$lite-grey: #d3d3d3;
+$medium-grey: #757575;
+$dark-grey: #7a7a7a;
+$xdark-grey: #313131;
+$black: #000000;
+
+// Spacing
+$globalUnit: 1rem;
+
+// Layout
+// html
+//   font-size: 16px
+// @media (max-width: 768px)
+//   html
+//     font-size: 15px
+// @media (max-width: 576px)
+//   html
+//     font-size: 13px

@@ -1,0 +1,28 @@
+@media(min-width: 783px) {
+    .post-type-post {
+
+        th#search_exclude {
+            width: 6%;
+        }
+        #posts-filter .column-categories {
+            width: 9%;
+        }th#comments {
+            width: 4%;
+        }
+        th#wpseo-links {
+            width: 4%;
+        }
+        th#date {
+            width: 8%;
+        }
+        th#tags {
+            width: 5%
+        }
+        .fixed .column-author, .fixed .column-format, .fixed .column-links, .fixed .column-parent, .fixed .column-posts {
+            width: 8%;
+        }
+        #wpbody-content .wp-list-table #cs_replacement.column-cs_replacement {
+            width: 7%;
+        }
+    }
+}

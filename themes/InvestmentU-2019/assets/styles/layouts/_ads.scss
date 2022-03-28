@@ -1,0 +1,214 @@
+#sticky-lead-gen-ad {
+  p {
+    text-align: center;
+    color: $lite-grey;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#sidebar-lead-gen-ad {
+  background-color: $iu-teal-lite;
+}
+
+.sidebar-banner-ad {
+  img {
+    width: 100%;
+  }
+}
+
+.sidebar-ad {
+  .lg_ad {
+    background-color: $iu-teal-lite;
+    padding: 1rem;
+  }
+  input#email {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  input.leadSubmit {
+    background-color: #1f82c5;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.7rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  p.disclaimer {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+.native-leadgen-signup {
+  .lg_ad {
+    background-color: #d4fdff;
+    padding: 1rem;
+  }
+  input#email {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  input.leadSubmit {
+    background-color: #1f82c5;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.7rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  p.disclaimer {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+div#small-signup-form {
+  h3 {
+    color: #fff;
+  }
+  p.disclaimer {
+    clear: both;
+    font-size: 12px;
+    margin-bottom: 0px;
+    a.privacy_link {
+      color: #fff;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+  }
+  p.lg_body {
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+  }
+  form#LeadGen {
+    width: 50%;
+    float: right;
+    display: block;
+  }
+  input[type=text] {
+    width: 65%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  input[type=submit] {
+    background-color: #41dde3;
+    font-weight: 700;
+    height: calc(1em + 1rem + 7px);
+    padding: 0 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+}
+
+.adzerk-ad {
+  display: flex;
+  place-content: center;
+  a {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  div#small-signup-form {
+    input[type=text], input[type=submit] {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:767px){
+  p.lg_body, form#LeadGen {
+    width: 100% !important;
+  }
+  .native-leadgen-signup {
+    height: 533px;
+  }
+  .sidebar-ad {
+    height: 780px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .d-block.sidebar-ad {
+    height: auto !important;
+    margin-top: 0 !important;
+    .lg_ad {
+      height: calc(41rem - 60vw);
+    }
+  }
+  .sidebar-ad {
+    height: 740px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .sidebar-ad {
+    height: 690px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .sidebar-ad {
+    height: 640px;
+  }
+}

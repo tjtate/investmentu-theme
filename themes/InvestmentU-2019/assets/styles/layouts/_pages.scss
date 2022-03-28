@@ -1,0 +1,1004 @@
+@media screen and (max-width: 1200px) {
+  body.menu-opened:after {
+    content: '';
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.category-tag {
+  color: $medium-grey;
+  font-size: 0.74rem;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $xdark-grey;
+  }
+}
+.p-black {
+  color: $black !important;
+}
+
+.p-blue {
+  color: $iu-blue;
+}
+
+.byline a {
+  color: $black;
+}
+
+.nav-down {
+  top: 100px;
+  transition: top 0.2s ease-in-out;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.sticky-top {
+  z-index: 1022 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-down {
+    top: 70px !important;
+  }
+}
+
+.big-featured-article-image,
+.featured-article-image,
+.small-featured-article-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.small-title {
+  font-size: $mdl;
+}
+
+.main-featured-article-excerpt a {
+  color: $black;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $iu-blue;
+    text-decoration: none;
+  }
+
+  strong {
+    line-height: 1.2;
+    font-size: 1.15rem;
+    display: block;
+  }
+
+  p {
+    color: $black;
+  }
+}
+
+.main-featured-article-excerpt,
+.featured-article-excerpt,
+.small-featured-article-excerpt {
+  .date-posted {
+    margin-top: 0.5rem!important;
+  }
+}
+
+.small-featured-article-excerpt a {
+  color: $black;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $iu-blue;
+    text-decoration: none;
+  }
+
+  .title-h6 {
+    font-size: 1rem;
+  }
+  strong {
+    line-height: 1.2;
+    font-size: 1.15rem;
+    display: block;
+  }
+
+  h6 {
+    font-weight: 700;
+  }
+}
+
+.featured-article-excerpt a {
+  color: $black;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $iu-blue;
+    text-decoration: none;
+  }
+
+  strong {
+    display: block;
+    line-height: 1.2;
+  }
+
+  p {
+    color: $black;
+  }
+}
+
+article .featured-image {
+  width: 300px;
+  max-width: 40%;
+
+  blockquote p {
+    padding-left: 2.5rem;
+  }
+}
+
+.secure-feed {
+  &-post {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .page-title {
+    margin-top: 2rem;
+  }
+  &-category {
+    select {
+      height: 45px;
+      border-radius: 5px;
+      padding: 0 13px;
+      border: 1px solid #ced4da;
+      background: #fff;
+    }
+  }
+  .search-form label {
+    width: 100%;
+    gap: 10px;
+    .search-field {
+      flex: 1;
+    }
+  }
+}
+
+.articlePreview {
+  padding-bottom: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid $lite-grey;
+
+  h4 {
+    color: $black;
+
+    a {
+      color: $black;
+      img {
+        background-color: $white;
+        border: 1px solid $lite-grey;
+        padding: 4px;
+      }
+    }
+  }
+}
+.e-margin p {
+  margin: 5px 0 !important;
+}
+
+#section02 {
+  background-color: $xlite-grey;
+
+  h3 {
+    margin-top: .5rem;
+  }
+  h6 {
+    color: $iu-blue;
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    img {
+      width: 80px;
+    }
+  }
+  strong {
+    padding-bottom: 0.5rem;
+    color: $iu-blue;
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    img {
+      width: 80px;
+    }
+  }
+  img.icons {
+    max-height: 60px;
+    margin-bottom: 10px;
+    margin-left: 9px !important;
+  }
+}
+
+
+#section04 {
+  background-color: $iu-blue-xlite;
+  h2.videoTitle {
+    font-size: 1.75rem;
+  }
+}
+
+#section05 p {
+  margin: 0;
+  padding: 0;
+  padding-top: $globalUnit * 0.5;
+  padding-bottom: $globalUnit * 0.5;
+  border-bottom: 1px solid $lite-grey;
+  text-transform: capitalize;
+}
+
+#section06 p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  &.carousel-item-description {
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+}
+
+a.readmore {
+  display: flex;
+  color: #1f82c5;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.popular-posts a {
+  color: #1f82c5;
+  font-weight: 500;
+}
+
+.h-popular-posts {
+  list-style: none;
+  li {
+    padding: 6px 0;
+    border-bottom: 1px solid $lite-grey;
+    a {
+      color: $black;
+      font-weight: 500;
+    }
+  }
+}
+
+.anchor-offset {
+  display: block;
+  position: relative;
+  top: -70px;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .first-post {
+    height: 100% !important;
+  }
+}
+
+.category-article-preview-row .small-featured-article-excerpt h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.category-article-preview-row .small-featured-article-excerpt strong {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  line-height: 1.2rem;
+}
+
+#popular-posts p {
+  border-bottom: 1px solid $lite-grey;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+
+  .small-featured-article-excerpt {
+    border-bottom: 1px solid $lite-grey;
+
+    &:last-of-type {
+      border-bottom: none;
+
+      h6 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  border-radius: 0.25rem;
+  padding: 0.9rem 0;
+
+  ul li {
+    display: inline-block;
+
+    a {
+      margin: 0 0.5em 0 0;
+      color: $dark-grey;
+    }
+  }
+}
+
+.navy-button {
+  background-color: $iu-blue;
+  color: $white;
+}
+
+input.form-control.form-control-lg,
+select.form-control.form-control-lg,
+textarea.form-control.form-control-lg {
+  margin-bottom: 1rem;
+}
+
+.exp-headshot img {
+  border-radius: 50%;
+  width: 200px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  //md
+  .big-featured-article-image {
+    #section02 img {
+      height: 80px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  //lg
+  .big-featured-article-image,
+  .featured-article-image {
+    height: 140px;
+    .small-featured-article-image {
+      height: 86px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  //xl
+  .big-featured-article-image,
+  .featured-article-image {
+    height: 160px;
+    .small-featured-article-image {
+      height: 100px;
+    }
+  }
+}
+
+/* Category Colors */
+
+.generic-color {
+  border-left: 6px solid $medium-grey;
+  padding: 0 5px;
+}
+.cat-dividend-stocks {
+  border-left: 6px solid #2a5bbf;
+  padding: 0 5px;
+}
+
+.cat-marijuana-stocks {
+  border-left: 6px solid #31ad37;
+  padding: 0 5px;
+}
+
+.cat-financial-freedom {
+  border-left: 6px solid #41dde3;
+  padding: 0 5px;
+}
+
+.cat-investing-101 {
+  border-left: 6px solid #f81f1a;
+  padding: 0 5px;
+}
+.cat-investment-opportunities {
+  border-left: 6px solid #f4a316;
+  padding: 0 5px;
+}
+
+.cat-tech-stocks {
+  border-left: 6px solid #c1cf22;
+  padding: 0 5px;
+}
+
+.gated h2 {
+  font-size: 1.75rem;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1085px) {
+  li.btn-subscribe a {
+    padding: 0.7rem 0.8rem;
+  }
+
+  #logo {
+    width: 214px;
+  }
+}
+
+.nav-social .nav-item img {
+  max-width: 25px;
+}
+
+// Our Gurus
+.guru-header {
+  font-size: 36px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: normal !important;
+}
+
+.our-gurus {
+  .page-title {
+    color: #5a5a5a;
+    h1 {
+      font-size: 3rem;
+      p {
+        font-weight: 500;
+      }
+    }
+    .card {
+      border: none;
+      border-bottom: 1px solid #d8d8d8;
+      .guru-content-wrapper {
+        border-right: 1px solid #d8d8d8;
+        margin-top: 2rem;
+        .card-img-top {
+          cursor: pointer;
+          .headshot {
+            border-radius: 100% !important;
+          }
+        }
+      }
+    }
+    .guru-intro h5 {
+      font-size: 23px;
+      color: #4b81af;
+      letter-spacing: 0;
+      font-weight: 500;
+
+      .guru-title {
+        font-size: 16px;
+        color: #4b81af;
+        letter-spacing: 0;
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 21px;
+      }
+    }
+
+    .signup-link {
+      font-size: 1.15rem;
+      color: #ffffff;
+      letter-spacing: 0;
+      text-align: center;
+    }
+    .signup-button {
+      width: 70%;
+    }
+
+    .modal .modal-dialog {
+      max-width: 700px;
+      margin: 1.75rem auto;
+      margin-top: 7rem;
+      .modal-content {
+        border-radius: 0px !important;
+        .modal-body p {
+          font-size: 18px;
+          .signup-button {
+            a {
+              font-size: 1.25rem !important;
+            }
+            .close span {
+              float: right;
+              padding: 6px 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .card-group {
+    justify-content: center;
+
+    .card .card-img-top {
+      cursor: pointer;
+    }
+    .modal .modal-dialog {
+      .modal-content {
+        align-items: flex-end;
+      }
+      .close {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .our-gurus .card .guru-content-wrapper {
+    border-right: none;
+  }
+}
+
+// guru banner
+.read-more {
+  color: #4b81af;
+  font-weight: 500;
+  margin-top: -15px;
+}
+
+#guru-header {
+  background-color: #1f82c5;
+  z-index: 1021;
+  padding: 10px 0 1px 0;
+}
+
+.guru-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.guru-nav .guru-dropdown .dropdown-item {
+  h6, strong {
+    line-height: 23px;
+    color: #1f82c5;
+    font-size: 1.1rem;
+  }
+  &:active h6 {
+    color: #fff;
+  }
+}
+
+.guru-nav .guru-dropdown .dropdown-item span {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1200px) {
+  .guru-nav .dropdown-menu {
+    min-width: 40rem;
+    left: -60px;
+  }
+}
+
+.all-gurus {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.guru-banner {
+  position: relative;
+  //height: 45rem;
+}
+
+.guru-banner-img {
+  bottom: 0;
+  left: 0;
+}
+
+.our-gurus .card {
+  min-width: 21rem;
+}
+
+@media (max-width: 767px) {
+  .our-gurus .card {
+    min-width: 100% !important;
+  }
+}
+
+//sub colors
+
+.agreen {
+  border: 2px solid #aa032f;
+}
+
+.oxf-sub-color {
+  background-color: #aa032f;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.mlichtenfeld {
+  border: 2px solid #206c2a;
+}
+.brk-sub-color {
+  background-color: #206c2a;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.mcarr {
+  border: 2px solid #264b9d;
+}
+.ore-sub-color {
+  background-color: #264b9d;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.nvardy {
+  border: 2px solid #51be39;
+}
+.nick-sub-color {
+  background-color: #51be39;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.dfessler {
+  border: 2px solid #b77a3a;
+}
+.dave-sub-color {
+  background-color: #b77a3a;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.bryan-bottarelli {
+  border: 2px solid #326eb6;
+}
+.bryan-sub-color {
+  background-color: #326eb6;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+.krahemtulla {
+  border: 2px solid #cad310;
+}
+.karim-sub-color {
+  background-color: #cad310;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.asnyder {
+  border: 2px solid #398f99;
+}
+.andy-sub-color {
+  background-color: #398f99;
+  color: #fff;
+  padding: 12px 10px;
+  font-weight: 500;
+}
+
+.letter-index-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#letter-index a {
+  padding: 3px;
+}
+
+.error_messages p {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.both-mandatory {
+  scroll-snap-type: both mandatory;
+}
+
+#jump-to-title {
+  scroll-margin: 16em;
+}
+
+.navbar-collapse ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 1199px) {
+  #small-signup-form:not(.nav-down) {
+    z-index: 1026 !important;
+  }
+}
+
+.sidebar-ad .error_messages p {
+  color: red !important;
+  font-size: 11px;
+  font-weight: 300;
+}
+.category-financial-terms span.read-more {
+  display: none;
+}
+
+// editor page 
+.editor-header {
+  background-image: linear-gradient(180deg, #024F8F 3%, #1F82C5 97%);
+  text-align: center;
+  h1{
+    font-family: $font-family-sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0.74px;
+    text-transform: uppercase;
+    //font-weight: 400 !important;
+  }
+  h5{
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: 0.41px; 
+    font-family: museo-sans, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  img{
+    width: 65%;
+  }
+}
+.editor-desc{
+  .articlePreview {
+    padding: 1rem 0 !important;
+  }
+}
+.e-header{
+    font-size: 20px;
+    color: #00559F !important;
+    letter-spacing: 0.29px;
+    display: inline-flex;
+    font-family: runda, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 1rem;  
+}
+.e-services{
+  background: #FFFFFF;
+  box-shadow: 0 0 6px 0 rgba(183,183,183,0.50);
+
+  .btn{
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-family: runda, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.e-desc {
+  img{
+    display: inline-flex;
+    width: 12%;
+    padding-right: 5px;
+  }
+  hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top: 2px solid #D8D8D8;
+  }
+  button{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background: #1F82C5;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  }
+}
+/* For demo layout purposes only */
+.e-bullets {
+  background-color: #f3f3f3;
+  width: 50%;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.bullets {
+  margin-bottom: 0px;
+  li {
+    padding: 20px 0;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: runda, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+  }
+}
+
+.blue-chip:before,
+.goal:before,
+.holding-period:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+
+.blue-chip:before {
+  background-image: url("https://s3.amazonaws.com/assets.investmentu.com/gurus/blue-chip-icon.svg");
+}
+
+.goal:before {
+  background-image: url("https://s3.amazonaws.com/assets.investmentu.com/gurus/goal-icon.svg");
+}
+
+.holding-period:before {
+  background-image: url("https://s3.amazonaws.com/assets.investmentu.com/gurus/holding-period-icon.svg");
+}
+
+.alm-reveal {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  //grid-auto-rows: 1fr;
+  grid-gap: 1em;
+  margin: auto;
+}
+
+button.alm-load-more-btn {
+  border: 1px solid #00559F !important;
+  font-size: 20px !important;
+  color: #00559F !important;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-family: runda, sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 0 !important;
+}
+
+.article-card {
+  display: grid;
+  grid-template-rows: 50% 0fr 0fr auto;
+
+  a img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+    height: 100% !important;
+  }
+  .e-header{
+    margin-top: 0rem !important;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+  .articleDate{
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0.18px;
+    font-style: normal !important;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .e-services {
+    display: table;
+    overflow: hidden;
+  }
+  .e-desc {
+    display: table-cell;
+  }
+  .e-bullets {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .e-bullets {
+    width: 100%;
+  }
+  .article-card {
+    grid-template-rows: none !important;
+  }
+  .article-card .articleDate {
+    margin-bottom: 10px;
+  }
+  .bullets li {
+    padding: 10px 0 !important;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .editor-header {
+    h1 {
+    font-size: 35px;
+    }
+    h5 {
+      font-size: 23px;
+    }
+    img{
+      width: 71%;
+    }
+  }
+  .article-card {
+    display: grid;
+    grid-template-rows: 50% 0fr 0fr auto;
+  }
+}
+
+@media screen and (max-width: 767px) and  (min-width: 485px){
+  .editor-header { 
+    h1 {
+    font-size: 25px;
+    }
+    h5 {
+      font-size: 18px;
+    }
+    img{
+      width: 90%;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 484px) and (min-width:376px) {
+  .editor-header { 
+    h1 {
+    font-size: 18px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+    img{
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .editor-header { 
+    h1 {
+      font-size: 15px;
+    }
+    h5 {
+      font-size: 12px;
+    }
+    img{
+      width: 90%;
+    }
+  }
+  .e-desc{
+    h4{
+      font-size: 16px !important;
+    }
+  }
+}
+
+// editor page ends
+
+.quiz-content img {
+  width: 100%;
+}

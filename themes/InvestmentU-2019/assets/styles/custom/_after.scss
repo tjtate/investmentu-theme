@@ -1,0 +1,50 @@
+.container ins center a img {
+  width: 100%;
+}
+
+.search-form-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 20px 15px;
+  margin-top: 50px;
+  &.open {
+    display: block;
+  }
+}
+
+.pf-widget-container {
+  transition: none !important;
+}
+.pf-widget {
+  transition: none !important;
+}
+#small-signup-form {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 9999 !important;
+}
+#small-signup-form.nav-down {
+  top: 72px !important;
+}
+@media screen and (min-width: 576px) {
+  #small-signup-form.nav-down {
+    top: 84px !important;
+  }
+}
+@media screen and (min-width: 990px) {
+  #small-signup-form.nav-down {
+    top: 104px !important;
+  }
+}
+
+#small-signup-form #close {
+  display: block !important;
+}
+
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,95 @@
+#small-signup-form {
+  background-color: $iu-blue;
+  z-index: 2000 !important;
+
+  p {
+    color: white;
+  }
+
+  input {
+    border-radius: 0;
+    border: 0;
+
+    &[type="text"] {
+      width: 300px;
+    }
+
+    &[type="submit"] {
+      background-color: $iu-teal;
+      color: white;
+      font-weight: bold;
+      height: calc(1em + 0.75rem + 2px);
+      font-size: 1.5rem;
+      padding: 0px;
+      cursor: pointer;
+    }
+  }
+}
+
+.sticky-top {
+  p {
+    // letter-spacing: 0.7px
+    font-size: 0.99rem;
+  }
+}
+
+.header {
+  @media screen and (min-width: 768px) {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+.header-space {
+  @media screen and (min-width: 768px) {
+    content: "";
+    height: 130px;
+  }
+  @media screen and (min-width: 1200px) {
+    content: "";
+    height: 180px;
+  }
+}
+
+.buttons-mobile {
+  display: flex;
+  position: relative;
+
+  @media screen and (max-width: 700px) {
+    width: 100%;  
+  }
+
+  .btn-subscribe-wrapper {
+    display: none;
+
+    @media screen and (max-width: 700px) {
+      position: absolute;
+      right: 135px;
+      left: 0;
+      bottom: 0;
+
+      display: block;
+      width: calc(100% - 150px);
+      max-width: 260px;
+
+      text-align: center;
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li.btn-subscribe a {
+      @media screen and (max-width: 700px) {
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
+}
+#menu-primary-mega-menu li.btn-subscribe {
+  @media screen and (max-width: 700px) {
+    display: none !important;
+  }
+}

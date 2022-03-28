@@ -1,0 +1,57 @@
+#spotlight,
+#spotlight-mobile {
+  border: 1px solid #4e81c1;
+  border-top: 11px solid #4e81c1;
+
+  header img {
+    width: 30px;
+  }
+
+  h4 {
+    font-size: 21px;
+  }
+
+  h5 {
+    font-size: 17px;
+    color: #4e81c1;
+  }
+
+  p {
+    margin-bottom: 0.25rem;
+  }
+
+  a.btn {
+    color: white;
+    font-weight: 700;
+    border-color: transparent;
+  }
+
+  .spotlight-image {
+    width: 445px;
+  }
+}
+
+#spotlight-mobile {
+  @media screen and (max-height: 767px) {
+    height: 145px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+}
+
+#spotlight-mobile button.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1rem;
+  opacity: unset;
+}
+.spotlight_heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.spotlight_subhead {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
